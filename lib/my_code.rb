@@ -50,6 +50,7 @@ def reduce_to_all_true(source_array)
     if !source_array[i]
       flag = false
     end
+    i += 1
   end
   flag
 end
